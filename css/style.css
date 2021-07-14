@@ -288,10 +288,14 @@ body {
 .content-bottom-bottom {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 	margin-bottom: 100px;
 }
 
+a {
+	margin-top: 10px;
+}
 
 .fotor-text {
 	color: #53646b;
